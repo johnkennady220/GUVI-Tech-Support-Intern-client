@@ -47,7 +47,7 @@ const Profile = () => {
         data,
         isLoading
         } = useQuery("user", () =>
-        fetch(`https://infinite-shelf-47882.herokuapp.com/user/${email}`).then((res) => res.json())
+        fetch(`https://api.render.com/deploy/srv-cge3tgqk728lv80s4kb0?key=zS0ZfME3Q3c/user/${email}`).then((res) => res.json())
         );
 
         if(isLoading){
